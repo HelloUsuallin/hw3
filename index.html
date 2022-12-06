@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>hw3</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .header {
+            margin-top: -50px;
+        }
+
+        .logo img {
+            float: left;
+            width: 230px;
+            height: 42px;
+            margin-right: 20px;
+            margin-left: 30px;
+
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .nav li a {
+            float: left;
+            display: block;
+            height: 42px;
+            padding: 0 25px;
+            line-height: 42px;
+            font-size: 18px;
+            color: #050505;
+            text-decoration: none;
+
+        }
+
+        .nav li a:hover {
+            border-bottom: 2px solid #00a4ff;
+            color: #00a4ff;
+            display: block;
+        }
+
+        .father:hover .son {
+            display: block;
+            z-index: 300;
+        }
+
+
+        .nav .father {
+            position: relative;
+        }
+
+        .nav li .son {
+            display: none;
+            position: absolute;
+            left: 280px;
+            top: 40px;
+
+        }
+
+
+
+        .fixedbox {
+            display: block;
+            font-weight: 700;
+            color: red;
+            width: 120px;
+            height: 44px;
+            text-align: center;
+            border-color: blue;
+            border-style: dotted;
+            border-width: 2px;
+            position: fixed;
+            left: 30px;
+            top: 300px;
+        }
+
+        .picture img {
+            display: block;
+            width: 100%;
+            height: 100%;
+
+            margin-top: 20px;
+            box-shadow: darkblue;
+            -webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .5));
+            filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .5));
+            border-radius: 25px;
+
+        }
+
+
+
+        .picture ul li {
+            width: 1000px;
+            height: 800px;
+            margin: 0 auto;
+            margin-top: 70px;
+        }
+
+
+        footer {
+            float: left;
+            display: block;
+            height: 100px;
+            width: auto;
+            background-color: #fff;
+            margin: 20px;
+            text-align: center;
+        }
+
+        footer p {
+
+            float: left;
+            line-height: 25px;
+            color: black;
+            font-size: 10px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .word,
+        .code {
+            float: left;
+        }
+
+        footer img {
+            display: block;
+            float: left;
+            width: 50px;
+            height: 50px;
+            margin-left: 70px;
+            margin-top: 30px;
+        }
+
+        footer .bottomlogo {
+            float: left;
+            width: 230px;
+            height: 60px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="https://upload.shejihz.com/2020/05/be973edccd5987dd4bca33c93d4661d4.jpg">
+        </div>
+        <div class="nav">
+            <li>
+
+            <li class="father"><a href="#">校情总揽</a>
+                <ul class="son">
+                    <li><a href="#">学校简介</a></li>
+                    <li><a href="#">图解江财</a></li>
+                    <li><a href="#">历史沿革</a></li>
+                    <li><a href="#">现任领导</a></li>
+                    <li><a href="#">历任领导</a></li>
+                    <li><a href="#">学校导图</a></li>
+                    <li><a href="#">文化标识</a></li>
+                    <li><a href="#">校园风光</a></li>
+                    <li><a href="#">数据江财</a></li>
+                </ul>
+            </li>
+
+
+
+            </ul>
+            </li>
+            <li><a href="#">机构设置</a></li>
+            <li><a href="#">教学科研</a></li>
+            <li><a href="#">国际交流</a></li>
+            <li><a href="#">招生就业</a></li>
+            <li><a href="#">数字校园</a></li>
+            <li><a href="#">图书资源</a></li>
+            <li><a href="#">人才招聘</a></li>
+
+        </div>
+    </div>
+    <main>
+        <div class="fixedbox">
+            <p>春风十里不如你</p>
+            <p>美丽江财欢迎你</p>
+        </div>
+    </main>
+    <div class="picture">
+        <ul>
+            <li class="picture1"><img
+                    src="https://ts1.cn.mm.bing.net/th/id/R-C.00bf739807f5700e20144fb4c1f61d19?rik=3caeemYpOIkRbw&riu=http%3a%2f%2fwww.jdxzz.com%2fuploads%2fallimg%2f190905%2f7-1ZZ5155631.jpg&ehk=UNuBEVqIFatZL3rhFE6KWRgNzhoDEd1%2b6iwPOMSsaHQ%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1">
+            </li>
+            <li><img
+                    src="https://ts1.cn.mm.bing.net/th/id/R-C.ae8991890dfab7e76bf4c272d786f95f?rik=gSMpZG1PCxN%2fsw&riu=http%3a%2f%2fp8.itc.cn%2fq_70%2fimages03%2f20200707%2f46d1d4207b824543b6b8e5ff8450b082.jpeg&ehk=iehr%2fRYK0s5Hx8juSaX723hjy%2bWTLwjY%2fbIwPBKgw4M%3d&risl=&pid=ImgRaw&r=0">
+            </li>
+            <li><img src="https://p1.ssl.qhmsg.com/t010d721905f991f5db.jpg"></li>
+        </ul>
+    </div>
+    <footer>
+        <img class="bottomlogo" src="https://upload.shejihz.com/2020/05/be973edccd5987dd4bca33c93d4661d4.jpg">
+        <div class="word">
+            <p>蛟桥园校区：江西省南昌市昌北国家经济技术开发区双港东大街169号 邮编：330013</p><br>
+            <p>青山园校区：江西省南昌市青山南路596号 邮编：330077 </p><br>
+            <p>麦庐园校区：江西省南昌市昌北国家经济技术开发区玉屏大道 邮编：330032</p><br>
+            <p>枫林园校区：江西省南昌市昌北国家经济技术开发区枫林大道632号 邮编：330013</p>
+        </div>
+        <div class="code">
+            <img src="http://www.jxufe.edu.cn/statics/jxufe/ceshi/images/mechanismer.png">
+            <img src="http://www.jxufe.edu.cn/statics/jxufe/images/erweim1.png">
+            <img src="http://www.jxufe.edu.cn/statics/jxufe/images/erweim2.png">
+        </div>
+    </footer>
+
+</body>
+
+</html>
